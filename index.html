@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Aadesh Khande, Third-Year Computer Science undergraduate and full stack developer passionate about building clean, scalable, and intuitive software.">
+  <meta name="author" content="Aadesh Khande">
+  <title>Aadesh Khande | Full Stack Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="site-wrapper">
+
+    <!-- Top Site Navigation Header -->
+    <header class="site-header" role="banner">
+      <a href="#about" class="site-brand">Aadesh Khande</a>
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main role="main">
+
+      <!-- ====================================================================
+           1. INTRODUCTION / HERO SECTION
+           ==================================================================== -->
+      <section class="hero-section" id="about" aria-labelledby="hero-name">
+        <div class="hero-content">
+          <h1 class="hero-greeting" id="hero-name">Hi, I am Aadesh Khande</h1>
+          <p class="hero-role">TY Computer Science Undergrad &amp; Full Stack Developer</p>
+          <p class="hero-bio">
+            Passionate about building clean, efficient, and reliable web applications. I love architecting intuitive digital experiences and exploring modern software development from elegant frontend interfaces to robust backend systems.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-contact" id="hero-contact-btn">
+              Contact Me
+            </a>
+            <a href="resume_2-2.pdf" target="_blank" rel="noopener noreferrer" class="btn-resume" id="hero-resume-btn">
+              View / Download Resume
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-avatar-wrapper">
+          <div class="hero-avatar-circle" aria-label="Portrait illustration of Aadesh Khande">
+            <img src="image.png" alt="Developer Portrait of Aadesh Khande" class="hero-avatar-img" width="280" height="280" loading="eager">
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           2. PROJECTS SECTION (Exact match to modern UI reference)
+           ==================================================================== -->
+      <section class="modern-section" id="projects" aria-labelledby="projects-heading">
+        <div class="section-eyebrow">PROJECTS</div>
+        <div class="section-header-row">
+          <h2 class="section-heading" id="projects-heading">Some of my work</h2>
+          <a href="https://github.com/debugonaut" target="_blank" rel="noopener noreferrer" class="view-all-link">View All <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="projects-cards-row">
+
+          <!-- Card 1: Video Playback Tracker -->
+          <article class="project-showcase-card">
+            <div class="card-thumb-wrapper">
+              <img src="project_1_video_tracker.png" alt="Video Playback Tracker Landing Page" class="card-thumb-img" loading="lazy">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Video Playback Tracker</h3>
+              <p class="card-desc">Cross-browser extension and web platform that automatically tracks and preserves video playback timestamps across all streaming sites.</p>
+              <div class="card-links-row">
+                <a href="https://rewind-player.vercel.app" target="_blank" rel="noopener noreferrer" class="card-link card-link-live" aria-label="View Video Playback Tracker on Vercel">
+                  Vercel Live <span aria-hidden="true">↗</span>
+                </a>
+                <a href="https://github.com/debugonaut/video-playback-tracker.git" target="_blank" rel="noopener noreferrer" class="card-link card-link-github" aria-label="View Video Playback Tracker on GitHub">
+                  GitHub <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Groomly -->
+          <article class="project-showcase-card">
+            <div class="card-thumb-wrapper">
+              <img src="project_2_groomly.png" alt="Groomly Landing Page" class="card-thumb-img" loading="lazy">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Groomly</h3>
+              <p class="card-desc">Pet grooming marketplace &amp; salon management platform connecting pet owners with verified local salons, smart booking, and analytics.</p>
+              <div class="card-links-row">
+                <a href="https://groomly-ruddy.vercel.app" target="_blank" rel="noopener noreferrer" class="card-link card-link-live" aria-label="View Groomly on Vercel">
+                  Vercel Live <span aria-hidden="true">↗</span>
+                </a>
+                <a href="https://github.com/debugonaut/Groomly.git" target="_blank" rel="noopener noreferrer" class="card-link card-link-github" aria-label="View Groomly on GitHub">
+                  GitHub <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Thermalwatch AI -->
+          <article class="project-showcase-card">
+            <div class="card-thumb-wrapper">
+              <img src="project_3_thermalwatch.png" alt="Thermalwatch AI Console Dashboard" class="card-thumb-img" loading="lazy">
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Thermalwatch AI</h3>
+              <p class="card-desc">Context-aware satellite thermal intelligence system detecting, categorizing, and monitoring industrial thermal anomalies and wildfires across India.</p>
+              <div class="card-links-row">
+                <a href="https://sih26ekaant.web.app" target="_blank" rel="noopener noreferrer" class="card-link card-link-live" aria-label="View Thermalwatch AI live deployment">
+                  Live Demo <span aria-hidden="true">↗</span>
+                </a>
+                <a href="https://github.com/debugonaut/ThermalWatch-AI.git" target="_blank" rel="noopener noreferrer" class="card-link card-link-github" aria-label="View Thermalwatch AI on GitHub">
+                  GitHub <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           3. SKILLS SECTION (Technologies I work with)
+           ==================================================================== -->
+      <section class="modern-section" id="skills" aria-labelledby="skills-heading">
+        <div class="section-eyebrow">SKILLS</div>
+        <div class="section-header-row">
+          <h2 class="section-heading" id="skills-heading">Technologies I work with</h2>
+        </div>
+
+        <!-- 7 Official SVG Skill Icon Cards matching the reference design -->
+        <div class="skills-icons-row" role="list" aria-label="Core Technologies">
+          <!-- 1. HTML -->
+          <div class="tech-icon-card" role="listitem">
+            <svg class="tech-icon-svg" viewBox="0 0 32 32" aria-hidden="true">
+              <path fill="#E34F26" d="M6 28L3 4h26l-3 24-10 3z"/>
+              <path fill="#EF652A" d="M16 26.8l7.6-2.1 2.5-20H16v22.1z"/>
+              <path fill="#ECECEC" d="M16 11.5H10.4l.4 3.7h5.2v3.7H11.2l.4 4.5 4.4 1.2v3.8l-7.2-2-.8-9.2H16v-5.7z"/>
+              <path fill="#FFFFFF" d="M16 11.5h5.6l-.5 5.5H16v-3.7h1.9l.2-1.8H16v-5.7h7.6l-.3 3.7H16v2z"/>
+            </svg>
+            <span class="tech-icon-label">HTML</span>
+          </div>
+
+          <!-- 2. CSS -->
+          <div class="tech-icon-card" role="listitem">
+            <svg class="tech-icon-svg" viewBox="0 0 32 32" aria-hidden="true">
+              <path fill="#1572B6" d="M6 28L3 4h26l-3 24-10 3z"/>
+              <path fill="#33A9DC" d="M16 26.8l7.6-2.1 2.5-20H16v22.1z"/>
+              <path fill="#ECECEC" d="M16 11.5H10.4l.4 3.7h5.2v3.7H11.2l.4 4.5 4.4 1.2v3.8l-7.2-2-.8-9.2H16v-5.7z"/>
+              <path fill="#FFFFFF" d="M16 11.5h5.6l-.5 5.5H16v-3.7h1.9l.2-1.8H16v-5.7h7.6l-.3 3.7H16v2z"/>
+            </svg>
+            <span class="tech-icon-label">CSS</span>
+          </div>
+
+          <!-- 3. JavaScript -->
+          <div class="tech-icon-card" role="listitem">
+            <svg class="tech-icon-svg" viewBox="0 0 32 32" aria-hidden="true">
+              <rect width="32" height="32" rx="4" fill="#F7DF1E"/>
+              <text x="16" y="22.5" font-family="'Inter', -apple-system, sans-serif" font-weight="800" font-size="14" fill="#000000" text-anchor="middle" letter-spacing="0.5">JS</text>
+            </svg>
+            <span class="tech-icon-label">JavaScript</span>
+          </div>
+
+          <!-- 4. React -->
+          <div class="tech-icon-card" role="listitem">
+            <svg class="tech-icon-svg" viewBox="0 0 32 32" aria-hidden="true">
+              <ellipse cx="16" cy="16" rx="4" ry="11" fill="none" stroke="#61DAFB" stroke-width="1.8" transform="rotate(30 16 16)"/>
+              <ellipse cx="16" cy="16" rx="4" ry="11" fill="none" stroke="#61DAFB" stroke-width="1.8" transform="rotate(90 16 16)"/>
+              <ellipse cx="16" cy="16" rx="4" ry="11" fill="none" stroke="#61DAFB" stroke-width="1.8" transform="rotate(150 16 16)"/>
+              <circle cx="16" cy="16" r="2.2" fill="#61DAFB"/>
+            </svg>
+            <span class="tech-icon-label">React</span>
+          </div>
+
+          <!-- 5. Node.js -->
+          <div class="tech-icon-card" role="listitem">
+            <svg class="tech-icon-svg" viewBox="0 0 32 32" aria-hidden="true">
+              <path fill="#539E43" d="M16 3l12 7v14l-12 7-12-7V10l12-7z"/>
+              <path fill="#FFFFFF" d="M16 6.5L6.5 12v9.5L16 27l9.5-5.5V12L16 6.5z" opacity="0.15"/>
+              <path fill="#FFFFFF" d="M16 8l8 4.6v9.2L16 26.4 8 21.8v-9.2L16 8m0-2L5 11.5v11.1L16 28.5l11-5.9V11.5L16 6z"/>
+            </svg>
+            <span class="tech-icon-label">Node.js</span>
+          </div>
+
+          <!-- 6. Git -->
+          <div class="tech-icon-card" role="listitem">
+            <svg class="tech-icon-svg" viewBox="0 0 32 32" aria-hidden="true">
+              <path fill="#F05032" d="M30.6 13.9L18.1 1.4c-.8-.8-2.1-.8-2.9 0l-3.3 3.3 4.2 4.2c.9-.3 2 .1 2.6.7.7.7 1 1.8.7 2.6l4.1 4.1c.9-.3 2 .1 2.6.7.9.9.9 2.4 0 3.3s-2.4.9-3.3 0c-.7-.7-.9-1.7-.7-2.6L18 13.6v7.2c.2.2.4.4.5.7.9.9.9 2.4 0 3.3s-2.4.9-3.3 0-1-2.4 0-3.3c.3-.3.8-.5 1.3-.6v-7.3c-.5-.1-1-.4-1.3-.6l-4.1 4.1v.2c0 1.2-.9 2.2-2.2 2.2-1.2 0-2.2-.9-2.2-2.2s.9-2.2 2.2-2.2l4.1-4.1-3.2-3.2L1.4 17.3c-.8.8-.8 2.1 0 2.9l12.5 12.5c.8.8 2.1.8 2.9 0l13.8-13.8c.8-.8.8-2.1 0-3z"/>
+            </svg>
+            <span class="tech-icon-label">Git</span>
+          </div>
+
+          <!-- 7. Figma -->
+          <div class="tech-icon-card" role="listitem">
+            <svg class="tech-icon-svg" viewBox="0 0 32 32" aria-hidden="true">
+              <path fill="#0ACF83" d="M11 30a5 5 0 01-5-5c0-2.8 2.2-5 5-5h5v5a5 5 0 01-5 5z"/>
+              <path fill="#A259FF" d="M6 15a5 5 0 015-5h5v10h-5a5 5 0 01-5-5z"/>
+              <path fill="#F24E1E" d="M6 5a5 5 0 015-5h5v10h-5a5 5 0 01-5-5z"/>
+              <path fill="#FF7262" d="M16 2h5a5 5 0 010 10h-5V2z"/>
+              <path fill="#1ABCFE" d="M21 12a5 5 0 11-5 5V12h5z"/>
+            </svg>
+            <span class="tech-icon-label">Figma</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           4. CONTACT SECTION (Exact match to modern UI reference)
+           ==================================================================== -->
+      <section class="modern-section" id="contact" aria-labelledby="contact-heading">
+        <div class="contact-modern-layout">
+          <div class="contact-left-content">
+            <div class="section-eyebrow">CONTACT</div>
+            <h2 class="section-heading" id="contact-heading">Get in touch</h2>
+            <p class="contact-left-pitch">Have a project in mind or just want to say hi? Feel free to reach out!</p>
+          </div>
+
+          <div class="contact-right-form">
+            <form class="contact-modern-form" action="mailto:contact@aadeshkhande.com" method="post" enctype="text/plain">
+              <div class="form-row-2col">
+                <input type="text" name="name" class="modern-form-input" placeholder="Your Name" required aria-label="Your Name">
+                <input type="email" name="email" class="modern-form-input" placeholder="Your Email" required aria-label="Your Email">
+              </div>
+              <textarea name="message" class="modern-form-textarea" placeholder="Your Message" required aria-label="Your Message"></textarea>
+              <button type="submit" class="btn-modern-submit" id="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ====================================================================
+         FOOTER (Exact match to modern UI reference)
+         ==================================================================== -->
+    <footer class="modern-footer" role="contentinfo">
+      <div class="modern-footer-copy">
+        © 2024 Aadesh Khande. All rights reserved.
+      </div>
+
+      <div class="modern-footer-icons">
+        <!-- GitHub -->
+        <a href="https://github.com/debugonaut" target="_blank" rel="noopener noreferrer" class="modern-social-link" aria-label="GitHub Profile">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+          </svg>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://linkedin.com/in/aadeshkhande" target="_blank" rel="noopener noreferrer" class="modern-social-link" aria-label="LinkedIn Profile">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+          </svg>
+        </a>
+
+        <!-- Mail -->
+        <a href="mailto:contact@aadeshkhande.com" class="modern-social-link" aria-label="Send Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+        </a>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
