@@ -14,7 +14,7 @@
 - **Generated Report:** `Aadesh_Khande_Portfolio_FSD.pdf` (and `202401100090_WT_Portfolio_FSD.pdf`)
 
 ### Live Project & Source Code Links
-- **Live Deployed Portfolio URL:** [https://javascript-assignment-sable-one.vercel.app/](https://javascript-assignment-sable-one.vercel.app/)
+- **Live Deployed Portfolio URL:** [https://backupportfolio-six.vercel.app/](https://backupportfolio-six.vercel.app/)
 - **GitHub Source Code Repository:** [https://github.com/debugonaut/backup_portfolio](https://github.com/debugonaut/backup_portfolio)
 
 ---
