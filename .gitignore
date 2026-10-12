@@ -1,4 +1,4 @@
-# Operating System Files
+# Operating System & IDE
 .DS_Store
 .DS_Store?
 ._*
@@ -6,19 +6,25 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
-
-# Editor / IDE
 .vscode/
 .idea/
-*.swp
-*.swo
+
+# Automation and PDF Generation Scripts
+*.py
+__pycache__/
+*.py[cod]
+
+# Screenshots and Test Crops
+screenshot_*.png
+pdf_img_*.png
+test_*.png
+
+# Assignment PDF Reports (Excludes Resume)
+*.pdf
+!resume_2-2.pdf
+!resume.pdf
+
+# Legacy Unused Mockup Images
+project_1_travel.png
+project_2_task.png
+project_3_furniture.png
