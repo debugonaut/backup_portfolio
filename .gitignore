@@ -17,12 +17,15 @@ __pycache__/
 # Screenshots and Test Crops
 screenshot_*.png
 pdf_img_*.png
+pdf_crop_*.png
+pdf_temp_*.png
 test_*.png
 
-# Assignment PDF Reports (Excludes Resume)
+# Assignment PDF Reports & Writeups (Excludes Resume)
 *.pdf
 !resume_2-2.pdf
 !resume.pdf
+practical*.md
 
 # Legacy Unused Mockup Images
 project_1_travel.png
