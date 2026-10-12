@@ -1,0 +1,21 @@
+{
+  "name": "aadesh-khande-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimalist Personal Portfolio & Engineering Showcase of Aadesh Khande",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "start": "npx -y serve .",
+    "build": "echo 'Static portfolio ready for deployment'"
+  },
+  "keywords": [
+    "portfolio",
+    "developer-portfolio",
+    "html5",
+    "css3",
+    "aadesh-khande"
+  ],
+  "author": "Aadesh Khande <contact@aadeshkhande.com>",
+  "license": "MIT"
+}

@@ -15,7 +15,7 @@
 
 ### Live Project & Source Code Links
 - **Live Deployed Portfolio URL:** [https://javascript-assignment-sable-one.vercel.app/](https://javascript-assignment-sable-one.vercel.app/)
-- **GitHub Source Code Repository:** [https://github.com/debugonaut/javascript-assignment.git](https://github.com/debugonaut/javascript-assignment.git)
+- **GitHub Source Code Repository:** [https://github.com/debugonaut/backup_portfolio](https://github.com/debugonaut/backup_portfolio)
 
 ---
 
@@ -77,24 +77,49 @@
 ---
 
 ## Directory Structure
-
+ 
 ```
 Portfolio_FSD/
 ├── index.html                   # Semantic HTML5 portfolio webpage
 ├── styles.css                   # Vanilla CSS3 stylesheet with design tokens
-├── image.png                    # Developer avatar image
-├── project_1_travel.png         # Travel Guide browser mockup
-├── project_2_task.png           # Task Manager browser mockup
-├── project_3_furniture.png      # Furniture Store browser mockup
-├── screenshot_1_hero_overview.png
-├── screenshot_2_mobile_view.png
-├── screenshot_3_tablet_view.png
-├── screenshot_full_page.png
-├── capture_screenshots.py       # Screenshot automation script
-├── generate_pdf_report.py       # WeasyPrint PDF report compiler
-├── Aadesh_Khande_Portfolio_FSD.pdf # Final 4-page academic & practical report
+├── favicon.svg                  # Minimalist vector SVG favicon (AK monogram)
+├── image.png                    # Developer portrait
+├── project_1_video_tracker.png  # Video Playback Tracker landing preview
+├── project_2_groomly.png        # Groomly landing preview
+├── project_3_thermalwatch.png   # ThermalWatch AI dashboard preview
+├── resume_2-2.pdf               # Current developer resume
+├── resume.pdf                   # Resume symlink / mirror
+├── package.json                 # Project manifest and dev scripts
+├── vercel.json                  # Production Vercel deployment configuration
 └── README.md                    # Project documentation
 ```
+
+---
+
+## Vercel Deployment Guide
+
+This portfolio is pre-configured for automated, zero-configuration deployment on **Vercel**:
+
+### Method 1: Automated Git Deployment (Recommended)
+1. Go to [vercel.com/new](https://vercel.com/new).
+2. Connect your GitHub account and select the repository: `debugonaut/backup_portfolio`.
+3. Under **Framework Preset**, leave it as **Other** (Static Site).
+4. Click **Deploy**. Vercel will build and deploy the portfolio with instantaneous edge routing, SSL certificates, and preview URLs on every git push.
+
+### Method 2: Command Line (Vercel CLI)
+```bash
+# Log in to Vercel (if not already logged in)
+vercel login
+
+# Deploy production build
+vercel --prod
+```
+
+### Pre-Configured Vercel Features (`vercel.json`)
+- **Clean URLs (`cleanUrls: true`):** Resolves clean, extensionless routes.
+- **Direct Resume Shortlinks (`/resume` & `/cv`):** Rewrites `/resume` directly to `resume_2-2.pdf`.
+- **Security Headers:** Strict headers (`X-Content-Type-Options: nosniff`, `X-Frame-Options: SAMEORIGIN`, `X-XSS-Protection`, `Referrer-Policy: strict-origin-when-cross-origin`).
+- **Static Asset Caching:** HTTP caching (`Cache-Control: public, max-age=31536000, immutable`) for fast static delivery across Vercel's global CDN.
 
 ---
 
@@ -102,6 +127,10 @@ Portfolio_FSD/
 
 To run locally:
 ```bash
+# Using Python
 python3 -m http.server 3000
+
+# Or using Node / npm
+npm start
 ```
 Open [http://localhost:3000](http://localhost:3000) in your web browser.
